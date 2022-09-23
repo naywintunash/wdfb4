@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <title>Js Storage</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+    // console.log('hay');
+
+    // Local Stroage
+    // Stroage
+    // localStorage.setItem('name','maung maung');
+    // localStorage.setItem('age',27);
+    // localStorage.setItem('city',"Mandalay");
+
+
+    // Update
+    // Method 1
+    // localStorage.setItem('name',"Kyaw Kyaw");
+    // Method 2
+    // localStorage.name = "Mya Mya";
+
+
+    // Get Data from localStroage
+    const getname = localStorage.getItem('name');
+    const getage = localStorage.getItem('age');
+    const getcity = localStorage.getItem('city');
+
+    // document.write(getname);
+    // document.write('<br/>');
+    // document.write(getage);
+    // document.write('<br/>');
+    // document.write(getcity);
+    // document.write('<br/>');
+
+    // Destroy
+    // Single Destroy
+    // localStorage.removeItem('name');
+    // All Destroy
+    // localStorage.clear();
+
+
+    // Session Storage
+    // Store 
+    sessionStorage.setItem('name','susu');
+    sessionStorage.setItem('age',30);
+    sessionStorage.setItem('city',"Yangon");
+
+    // Update 
+    // Method 1
+    sessionStorage.setItem('name',"Mya Mya");
+    // Method 2
+    // sessionStorage.age = 40;
+
+    // Get Data from session stroage 
+    const getname2 = sessionStorage.getItem('name'); 
+    const getage2 = sessionStorage.getItem('age'); 
+    const getcity2 = sessionStorage.getItem('city'); 
+
+
+    document.write(getname2);
+    document.write("<br/>");
+    document.write(getage2);
+    document.write("<br/>");
+    document.write(getcity2);
+
+    // Destroy
+    // Single Destroy
+    // sessionStorage.removeItem('age');
+    // All Destroy
+    sessionStorage.clear();
+
+
+
+
+</script>
+</body>
+</html>

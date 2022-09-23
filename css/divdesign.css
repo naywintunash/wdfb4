@@ -1,0 +1,106 @@
+/*UniversalSelector*/
+*{
+	cursor: pointer;
+}
+
+.firstdiv{
+	background-color:rgba(225,27,127,1.00);
+	width: 200px;
+	height: 100px;
+	color: white;
+	cursor: pointer;
+	font-size:20px;
+	/*opacity:0;*/
+}
+
+
+.divtwo{
+	width: 300px;
+	height: 300px;
+	/*background: gray;*/
+	/*cursor: pointer;*/
+	color: white;
+
+	/*border: 2px;
+	border-style: solid;
+	border-color: red;*/
+
+	border: 2px solid yellow;
+
+	background-image:url(../img/cover/bg1.jpg);
+	background-repeat: no-repeat;
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+
+	background-position: center;
+}
+
+.divthree{
+	width: 200px;
+	height: 200px;
+	border: 3px solid red;
+	font-size: 20px;
+	color: white;
+															/*Linear-gradient net Radial-gradient kwar char dr ka......deg pl */
+															/*linear mr deg ya....radial mr maya....radial ka circle pon san color htwat*/
+
+	                                                   /*background-color: 	ka solid color mr pl alot lot....linear-gradient mr ma ya bu*/
+	                                                   /*background-image: mr linear-gradient YA TAL*/
+	                                                   /*background-image: image ya tl...color ka linear-gradient ya tl........BUT SOLID color MA YA PR*/
+
+	/*background: linear-gradient(blue,orange,red,green);*/
+	/*background-image: linear-gradient(red,blue,green,yellow);*/
+	/*background-image: linear-gradient(#3aa832,#ff3562);*/
+	/*background: linear-gradient(rgba(189,205,148,1.00),rgba(71,136,21,1.00));*/
+	/*background: linear-gradient(
+	90deg,
+	red,
+	green
+	);*/
+
+	/*background: radial-gradient(blue,orange,red);*/
+	/*background:  radial-gradient(#34a4eb,#62eb34);*/
+	background: radial-gradient(rgba(255,255,36,1.00),rgba(71,46,255,1.00));
+
+}
+
+.divfour{
+	width: 200px;
+	height: 300px;
+	font-size: 30px;
+	color: green;
+	/*background-image: linear-gradient(rgba(255,255,36,0.2),rgba(71,46,255,0.3)) , url(../img/cover/bg2.jpg);*/
+	/*background-repeat: no-repeat;*/
+
+
+/*
+	background: linear-gradient(
+		green 40%,
+		red 10%
+		)*/
+
+	/*background: linear-gradient(
+		40deg, 
+		green 40%,
+		red 70%
+		)*/
+
+
+		background: linear-gradient(
+		40deg, 
+		rgba(189,205,148,0.2) 40%,
+		rgba(71,136,21,0.3) 70%
+		), url(../img/cover/bg2.jpg);
+}
+
+
+
+
+/*function
+name(value)
+
+single parameter function
+name(value)
+
+multi parameter function
+name(value,value)*/

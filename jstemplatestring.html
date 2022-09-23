@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template String</title>
+</head>
+<body>
+	
+	
+
+	<script type="text/javascript">
+		
+		let name = "kyaw kyaw",
+			age = 24,
+			city = "Mandalay",
+			job = "Developer";
+
+			// console.log(name);
+
+			// const html; //cant declare
+			//console.log(html);
+
+			let html;
+
+			// Without Template String
+
+			// html = '<ul><li>Name : '+ name + '</li><li>Age : '+ age+' </li><li>City : ' +city +'</li><li>Job : '+ job + '</li></ul>';
+
+			html = '<ul>'+
+			'<li>Name : '+ name + '</li>'+
+			'<li>Age : '+ age+' </li>'+
+			'<li>City : ' +city +'</li>'+
+			'<li>Job : '+ job + '</li>'+
+			'</ul>';
+
+
+			document.write(html);
+
+			// With Template String
+			html = `
+			<ul>
+			<li>Name : ${name} </li>
+			<li>Age : ${age} </li>
+			<li>City : ${city} </li>
+			<li>Job : ${job} </li>
+			</ul>
+			`;
+
+			document.write(html);
+			
+
+	</script>
+</body>
+</html>

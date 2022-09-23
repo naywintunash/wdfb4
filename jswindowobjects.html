@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Window Object</title>
+</head>
+
+<body>
+
+
+    <!-- <div style="margin:1000px;"></div> -->
+
+    <button onclick="printme()">Print</button>
+    <button onclick="reloadme()">Reload</button>
+
+    <hr />
+
+
+
+
+    <script type="text/javascript">
+        // console.log('hay');
+
+        // Alert 
+        // window.alert('Hello World');
+
+        // Prompt 
+        // const input = prompt('Write Something');
+        // console.log(input);
+        // console.log(typeof input);
+
+        // Confirm 
+        // if (confirm("Are you sure")) {
+        //     console.log("Yes, i want to delete");
+        // } else {
+        //     console.log('OHH!!! , sorry i don\'t want');
+        // }
+
+
+        // Print
+        // window.print();
+
+        // function printme(){
+        //     window.print();
+        //     print();
+        // }
+
+        let val;
+
+        // Outer Width 
+        // val = window.outerWidth;
+        // console.log('this is outer width = ' + val);
+
+        // Outer Height
+        // val = window.outerHeight;
+        // console.log('this is outer height = ' + val);
+
+
+        // Inner Width 
+        // val = window.innerWidth;
+        // console.log('this is inner width = ' + val);
+
+        // Inner Height
+        // val = window.innerHeight;
+        // console.log('this is inner height = ' + val);
+
+        // Score Points 
+        // val = window.scrollY;
+        // console.log('ScrollY value = ' + val);
+
+        // Location Object
+        // val = window.location;
+        // console.log(val);
+
+        // Redirect 
+        // window.location.href="https://google.com";
+
+
+        // Reload 
+        // window.location.reload();
+        // function reloadme(){
+        //     window.location.reload();
+        // }
+
+        // Navigator Object 
+        // val = window.navigator;
+        // console.log(val);
+        document.write('appName = ' + window.navigator.appName + "<br/>");
+        document.write('appVersion = ' + window.navigator.appVersion + "<br/>");
+        document.write('userAgent = ' + window.navigator.userAgent + "<br/>");
+        document.write('platform = ' + window.navigator.platform + "<br/>");
+        document.write('javaenabled() = ' + window.navigator.javaEnabled() + "<br/>");
+        document.write('language = ' + window.navigator.language + "<br/>");
+        document.write('online = ' + window.navigator.onLine + "<br/>");
+
+    </script>
+</body>
+
+</html>

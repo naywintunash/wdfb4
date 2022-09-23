@@ -1,0 +1,155 @@
+.boderstyle1{
+	border-style: solid;
+}
+
+.boderstyle2{
+	border-style: dotted;
+}
+
+.boderstyle3{
+	border-style: double;
+}
+
+.boderstyle4{
+	border-style: dashed;
+}
+
+.boderstyle5{
+	border-style: inset;
+}
+
+.boderstyle6{
+	border-style: outset;
+}
+
+
+.bddesign{
+	width: 100px;
+	height: 120px;
+	background-color:orange;
+
+			/*all angle*/
+	/*border-radius: 20px;*/
+						/*top&bottom left&right*/
+	/*border-radius: 10px 50px;*/
+
+					/*top left/ top right / bottom right / bottom left	*/
+	/*border-radius: 10px 20px 50px 80px;*/
+
+	border-top-left-radius: 30px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius:80px;
+	border-bottom-left-radius:100px;
+}
+
+li{
+	/*list-style-type:square;*/
+	/*list-style-type:circle;*/
+	/*list-style-type:none;*/
+	/*list-style:none;*/
+
+	/*list-style-type:decimal;*/
+	list-style-type:decimal-leading-zero;
+
+
+	/*border:1px solid red;*/
+
+	border:1px;
+	border-style:solid;
+	border-color:orange;
+
+	/*list-style-position:inside;*/
+
+
+							 /*outside is default */
+	list-style-position: outside;  
+
+
+}
+
+/*Attribute Selector*/
+input[type="text"]{
+	color: white;
+	background-color: green;
+	width: 300px;
+	border-radius:20px;
+}
+
+input[type="email"]{
+	color:blue;
+}
+
+body{
+	background-image:url(../img/icons/icon1.png);
+	background-repeat:no-repeat;
+
+
+														/*default a nay net ka left top mr twr kat twr tl*/
+	/*background-position:center;*/
+
+														/*right yet center bet mr yout twr tl*/
+	/*background-position:right;*/
+
+														/*left yet center bet mr yout twr tl*/
+	/*background-position:left;*/
+
+														/*top center mr twr paw ml*/
+	/*background-position:top;*/
+
+														/*bottom center mr twr paw ml*/
+	/*background-position:bottom;*/
+
+
+
+
+	/*background-position:right bottom;*/
+	/*background-position:left bottom;*/
+
+	/*background-position:right top;*/
+	/*background-position:left top;*/               /* DEFAULT*/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+el
+id
+cl
+uni
+attribute
+group
+single
+*/
+
+/*
+name() = function
+name{} = boject
+[] = array
+
+*/
+
+
+
+
+
+
+
+
+
+
+

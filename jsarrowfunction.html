@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arrow Function</title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+	
+
+	// Regular Function
+
+	// (Single Parameter)
+	let regfun1 = function(num1){
+		// return num1 = 60;
+		num1 = 60;
+		return num1;
+	}
+
+	console.log('This is regfun1 = ' + regfun1());
+
+
+	// Arrow Function (Single Parameter)
+
+	// Method 1
+	let arrfun1 = (num1)=>{
+		return num1;
+	}
+
+	console.log("This is arrfun1 = " + arrfun1(200));
+
+
+	// Method 2
+	let arrfun2 = num1=>{          //single parameter mho (num1) ko num1 lo yay pay lo ya tl
+		return num1;
+	}
+
+	console.log("This is arrfun2 = " + arrfun2(300));
+
+
+	// Method 3
+	let arrfun3 = num1=>num1+500;
+
+	console.log("This is arrfun3 = " + arrfun3(400));
+
+
+
+// Arrow Function (Multi Parameter)
+
+
+			let multiarrfun1 = (num1,num2) =>{
+				const result = num1 + num2;
+				return result;
+			}
+
+			console.log('This is multiarrfun1 = ' + multiarrfun1(10,20));
+
+
+
+
+// Without Parameter()
+
+// Method 1
+let wpfun1 = ()=>{
+	return "I Love Mandalay";
+}
+
+console.log('This is wpfun1 = ' + wpfun1());
+
+// Method 2
+let wpfun2 = ()=> "I Love Mandalay";
+
+console.log('This is wpfun2 = ' + wpfun2());
+
+
+</script>
+</body>
+</html>

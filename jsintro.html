@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Intro</title>
+</head>
+<body>
+	<h3>Welcome to JS</h3>
+
+	<img src="img/shame.jpg" id="funny">
+	<br/><br/>
+
+	<button onclick="document.getElementById('funny').src='img/amazing.jpg'">Amazing</button>
+	<button onclick="document.getElementById('funny').src='img/bleh.jpg'">Bleh</button>
+	<button onclick="document.getElementById('funny').src='img/shame.jpg'">Shame</button>
+	<hr/>
+
+	<b id="poem">welcome to js</b>
+
+
+
+	<script type="text/javascript">
+		
+		console.log("aung aung");
+		console.log("Kyaw Kyaw");
+		console.log(500);
+		console.log("500");
+
+		console.log("aung aung","kyaw Kyaw");
+		console.log(10+20);
+		console.log(10+"40");
+		console.log(50+true);
+		console.log(50+false);
+		console.log("aung aung      " + 20);
+
+		// window.alert("Hello Myanmar");
+		// window.alert("Save Myanmar");
+
+		// alert("Fight to Japu");
+
+
+		// Comments
+		// Single Line Comment
+		// Multi Line Comment
+
+
+		/* 
+			Multi line Coments 
+		*/
+
+		// Variable  (const / var / let)
+
+		// const sayar = "Tin Htut Aung";
+		// var sy = "Tin Htut Aung";
+		let sayar = 'Tin Htut Aung';
+
+		console.log(sayar,sayar);
+		console.log('sayar');
+
+		console.log("Our teacher name is "+ sayar);
+		// console.log("Our teacher name is "+ `${sayar}`);
+
+
+
+		// Backticks(``)
+		console.log(`sayar`);
+		console.log(`${sayar}`);
+		console.log('${sayar}');
+		console.log("${sayar}");
+
+		console.log(`Our teacher name is  ${sayar}`);
+
+		// window.alert(sayar);
+		// window.alert(`Our teacher name is ${sayar}`);
+
+
+		var num1 =1500;
+		const num2 =1000;
+
+		console.log(num1+num2);
+		console.log('num1+num2');
+		console.log(`${num1+num2}`);
+		console.log(`${num1}+${num2}`);
+		console.log(`(${num1}+${num2})`);
+
+		let num3 = "30";
+		const num4 = '20';
+		console.log(num3+num4);
+
+
+		 let num5 = 20;  //(can overwrite)
+		// num5 = 30;
+
+		//var num5 = 20;  //(can overwrite)
+		//num5 = 30;
+
+
+		 //const num5 = 20;  //(can't overwrite)
+
+		console.log(num5);
+
+		// overwrite
+		num5 = 500;
+		console.log(num1+num5);
+		num5 = 100;
+		console.log(num1+num5);
+
+		// Concatenate
+		const name1 = "mg mg";
+		const name2 = "kyaw";
+
+		console.log(name1+' '+name2+" "+"is my friend");
+
+
+		let greeting = "Hello";
+		let city1 = "Mandalay";
+		let city2 = "Yangon";
+		console.log(greeting + " "+city1+" and "+city2);
+		console.log(`${greeting} ${city1} and ${city2}`);
+
+		document.write("<hr/>");
+		document.write(`${greeting} ${city1} and ${city2}`);
+
+
+		// Special Escape Characters
+		let myfather = "he is my father";
+		let mymother = 'she\'s $ my mother';   //special escape eg $#@ twei ko tone chin yin...shar mr backword slac (\) use pay ya tl...
+		console.log(myfather);
+		console.log(mymother);
+
+		document.write("<br/>");
+
+		let x='It\'s U Ba';
+		let y= "poem";
+		// let z = 'He\'s my Uncle';
+		let z = "He\'s my \"Uncle\".";
+		document.write(`${x} ${y} ${z}`);
+
+
+		// let abc=document.getElementById("poem");
+		// console.log(abc);
+
+		// document.getElementById("poem").textContent=`${x} ${y} ${z}`;
+		// document.getElementById("poem").innerText=`${x} ${y} ${z}`;
+		document.getElementById("poem").innerHTML=`${x} ${y} ${z}`;
+
+
+
+	</script>
+</body>
+</html>
+
+
+
+<!-- 
+Data Type
+String
+Number 
+Boolean (true,false)
+-->
+
+
+<!-- 
+datatype twei ko ti chin yin
+typeof
+or
+typeof()
+
+net sit lo ya tl -->

@@ -1,0 +1,145 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+*{
+	font-family:'Stick';
+}
+*/
+
+/*Google Font Local Integrate*/
+
+@font-face{
+	font-family:Stick;
+	src:local('Stick-Regular'),url(../libs/fonts/stick/Stick-Regular.ttf) format('woff');
+}
+
+@font-face{
+	font-family:Haha;
+	src:local('AkayaTelivigala-Regular'),url(../libs/fonts/akayatelivigala/AkayaTelivigala-Regular.ttf) format('woff');
+}
+
+
+
+.p1{
+	font-family:'Stick';
+}
+
+.p2{
+	font-family:'Haha'
+}
+
+
+.p3{
+
+	font-family:Arial,Century;
+	/*font-weight:bold;*/
+
+	/*font-weight:bold;*/
+	/*100 to 900*/
+	/*font-weight:900;*/
+
+	/*font-style:italic;*/
+
+	/*Text Indentation*/  
+	/* (tab 1 ku ko 50px sar shi tl)*/
+	text-indent:50px;
+
+
+	/*text-transform:uppercase;*/
+	/*text-transform:lowercase;*/
+	/*text-transform:capitalize;*/
+
+	font-variant: small-caps;
+}
+
+
+.a1{
+	text-decoration: none;
+
+}
+
+.a1:active{
+	color:yellow;
+}
+
+.a1:hover{
+	color: blue;
+	font-size: 20px;
+}
+
+
+.imgdesign{
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+}
+
+
+.imgdesign:hover{
+	width: 100px;
+	height: 100px;
+
+	transition: 1s ease;
+}
+
+/*body{
+	font-family:Arial,Century,"Times New Roman";
+}*/
+
+
+/*.p2{
+	font-family:Century,Arial;
+}*/
+
+/*.p3{
+	font-family:Arial;
+}*/
+
+/*
+.p1{
+	font-family:'Stick', sans-serif;
+}*/
+ 
+
+
+ .menutext{
+ 	font-family:Cambria;
+ 	text-decoration:none;
+ 	background-color:green;
+ 	color:#fff;
+
+ 	/*padding:10px;*/
+ 			/*top&bottom  left&right*/   
+ 	/*padding:10px 20px;*/
+
+ 	padding-top:10px;
+ 	padding-bottom:10px;
+ 	padding-left:20px;
+ 	padding-right:20px;
+
+ 	/*padding:10px 10px 10px 10px; */
+
+
+ }
+
+
+/*Pseudo Class(:)*/
+.menutext:hover{
+	background-color:orange;
+	color:black;
+	border-radius:100px;
+}
+
+.menutext:active{
+	color:red;
+}
+
+
+
+
+
+
+
+/*Font Integrate*/
+
+/*
+1.Local Machine
+2.Google Fon (GoogleApi Fonts) ----> 1.CDN Local Integrate. 2.Local Integrate

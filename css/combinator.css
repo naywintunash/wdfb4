@@ -1,0 +1,101 @@
+/*Tag to Tag*/
+/*div span{
+	color:red;
+}*/
+
+
+/*Tag to Tags*/
+/*div span p{
+	color:red;
+}*/
+
+
+
+
+
+
+
+
+/*
+.container b span{
+	color: blue;
+}
+
+
+
+
+.mobile.jpn{
+	color:green;
+}
+
+.mobile.cn{
+	color:red;
+}
+
+.mobile.us{
+	color:blue;
+}
+*/
+
+
+
+/*Class to Same Class*/
+/*.vehicle .car.jpn{
+	background-color:red;
+}
+
+
+.vehicle .car.cn{
+	background-color:blue;
+}
+
+.vehicle .car.indo{
+	background-color:orange;
+}
+*/
+
+
+
+/* Class to Tag by group selector*/
+/* .div1 b, .div1 p{
+	color:blue;
+} */
+
+
+/*Child Selector ( > )*/
+/* .div2 >i{
+	color:red;
+} */
+
+
+
+/*Sibling Selector*/
+/*General Sibling Selector (~)*/   
+
+ /* parent ma shi tat element htai mr alot lo mr      */
+/* .div4 ~ i{
+	color:red;
+	background-color:yellow;
+} */
+
+
+
+/*Adjecent Sibling Selector(+)*/   
+
+/*kat lyat mr shi tat element mr pl alot lot.Element ta ku pl alot lot mr....kyar htai mr element or tag ta ku ku shi yin a lot ma lot tot bu*/        
+.div7 + p{
+	background-color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

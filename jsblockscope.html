@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Js Block Scope</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        // Global Scope (can call anywhere /whereever)
+        var a = 1;
+        let b = 2;
+        const c = 3;
+
+        console.log('Global Scope = ', a, b, c);
+
+
+        // Function Scope 
+
+        function test() {
+            // console.log(a, b, c); //global scope variable can call in function scope
+
+            let x = 100;
+            // console.log(x);
+
+            var a = 4;
+            let b = 5;
+            const c = 6;
+
+            console.log('Function Scope = ',a,b,c);
+        }
+
+        test();
+    // console.log(x); //function scope variable can't call in grobal scope
+    console.log('Global Scope = ' , a,b,c);
+
+
+        // If Scope (Block Scope)
+
+        if(true){
+            // var a = 7;
+            // let b = 8;
+            // const c = 9;
+
+            // console.log('IF Scope = ' , a,b,c);
+        }
+
+        // console.log('Global Scope = ',a,b,c);  //var a = 7 ka overwrit ptit lr tl..golbal scope mr resut 7 2 3
+
+        // Loop Scope (Block Scope)
+
+        for(var a =0;a<10;a++){
+            // console.log("Loop = " + a);
+        }
+
+        for(let b=0;b<10;b++){
+            console.log("Loop = " + b);
+        }
+
+        console.log('Global Scope = ',a,b,c);
+
+    </script>
+</body>
+
+</html>

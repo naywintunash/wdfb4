@@ -1,0 +1,171 @@
+.div1{
+	width:600px;
+	height:200px;
+	background-color:orange;
+	color:red;
+
+	/*margin:20px;*/
+	/*margin-left:50px;*/
+	/*margin-right:50px;*/
+	/*margin-top:50px;*/
+	margin-bottom:50px;
+
+	      /*top&bottom   left&right */
+	/*margin:50px 10px;*/
+}
+
+
+.div1 .bank{
+	display:block;
+
+	margin-left:400px;
+}
+
+.div1 .money{
+	display:block;
+
+	margin-left:400px;
+
+
+}
+
+.div1 .coin{
+	display:block;
+
+	position:absolute;
+
+	margin-left:400px;
+
+}
+
+
+
+
+.div2{
+	width:600px;
+	height:200px;
+	background-color:green;
+	color:blue;
+
+	position:relative;
+}
+
+
+.div2 .bank{
+	display:block;
+
+	margin-left:400px;
+}
+
+.div2 .money{
+	display:block;
+
+	margin-left:400px;
+
+
+}
+
+.div2 .coin{
+	display:block;
+
+	position:absolute;
+
+	margin-left:400px;
+
+}
+
+
+.div3{
+	width:600px;
+	height:200px;
+	background-color:orange;
+	border:2px solid green;
+	margin-left:300px;
+
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+.div3 .c1{
+	width:100px;
+	height:100px;
+	background-color:red;
+	color:#fff;
+	border-radius:50%;
+
+
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+
+.div3 .c2{
+	width:100px;
+	height:100px;
+	background-color:blue;
+	color:#fff;
+	border-radius:50%;
+
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+h1{
+	background-color:pink;
+	display:inline;
+}
+
+.display1{
+	width:300px;
+	height:100px;
+	background-color:silver;
+	border:2px solid red;
+
+	/*opacity:0;*/
+	/*visibility:hidden;*/
+	display:none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

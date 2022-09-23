@@ -1,0 +1,15 @@
+.a1{
+	text-decoration: none;
+
+}
+
+
+.a1:hover{
+	color: yellow;
+	font-size: 20px;
+}
+
+.a1:active{
+	color:red;
+}
+

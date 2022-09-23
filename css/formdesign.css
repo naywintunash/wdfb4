@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+:root{
+	--wcc:#f4f4f4;
+	--gyc:#777;
+	--dbc:#2541a8;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+body{
+	font-family:'Squada One', cursive;
+
+	/*viewport height (vh)*/
+	height:100vh;
+
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+
+  
+	/*margin:0; */            /* browser mr scroll ko pyout pho margin:0; use tl or overflow:hidden*/
+	overflow:hidden;
+}
+
+
+.container{
+	width:480px;
+	background-color: var(--wcc);
+					/*h v b c*/
+	box-shadow:0 2px 10px rgba(0,0,0,0.3);
+	border-radius:5px;
+}
+
+
+.container h2{
+	text-align:center;
+	margin-bottom:0;
+}
+
+.form{
+	       /*top&bottom  left&right*/
+	padding:30px 40px;
+}
+
+.form .form-control{
+	padding-bottom:20px;
+	margin-bottom: 10px;
+}
+
+.form-control label{
+	display:block;
+	color:var(--gyc);
+	margin-bottom:5px;
+}
+
+
+
+.form-control .input{
+	width:100%;
+	padding:10px;
+	font-family:inherit;
+}
+
+
+.form-control .input:focus{
+	outline:0;
+}
+
+/*placeholder ko khaw chin yin pseudo element net khaw (::)*/
+.form-control .input::placeholder{
+	color:rgba(0,0,0,0.3);
+}
+
+.form .btn{
+	width: 100%;
+	cursor:pointer;
+	padding:10px;
+	font-size:16px;
+	border-radius:4px;
+	border:0;
+	background-color:var(--dbc);
+	color:#fff;
+	font-family:inherit;
+}
+
+.form .btn:active{
+	transform:scale(0.98);
+}
+
+
+
+
+
+
+
+
+
+
+

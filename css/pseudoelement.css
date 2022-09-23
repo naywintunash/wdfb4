@@ -1,0 +1,29 @@
+/*.paragraph1::first-line{
+	color:blue;
+}
+*/
+
+
+				/*  before or after ko khaw yin content:""    a loot htr ko htr pay ya ml   */
+/*.paragraph1::before{
+	content:"ABCD ";
+}*/
+
+
+/*.paragraph1::after{
+	content:" EFG";
+}
+*/
+
+
+
+/*.paragraph1::first-letter{
+	color:red;
+	font-size:50px;
+}*/
+
+
+.paragraph1::selection{
+	background-color: orange;
+	color: #fff;
+}

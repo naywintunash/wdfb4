@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Statement</title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+
+	// Ternary Operator (?)
+	// num1 > num2 ? true : false;
+
+	const x = 100;
+	const y = 200;
+
+	console.log(x < y ? "Yes it is true" : "No it is false");
+
+	const num1 = 4;
+	const num2 = 2;
+
+	// check value value tuu yin ya p....string 2 nay nay number 2 nay nay...value kyi p tuu nay ya tl
+	document.write("equal to (==) result = " +(num1 == num2 ? "True" : "False") + "<br>");
+
+	// check value /data type ka sa tuu nay mha ya mr
+	document.write("equal to (===) result = " +(num1 === num2 ? "True" : "False") + "<br>");
+
+	// Check value
+	document.write("not equal to (!=) result = " +(num1 != num2 ? "True" : "False") + "<br>");
+
+	// Check value  / data type
+	document.write("not equal to (!==) result = " +(num1 !== num2 ? "True" : "False") + "<br>");
+
+	document.write("greater than(>) result = " +(num1 > num2 ? "True" : "False") + "<br>");
+	document.write("less than(<) result = " +(num1 < num2 ? "True" : "False") + "<br>");
+
+	document.write("greater than or equal(>=) result = " +(num1 >= num2 ? "True" : "False") + "<br>");
+	document.write("less than or equal(<=) result = " +(num1 <= num2 ? "True" : "False") + "<br>");
+
+	// if statement
+	// if(condition){
+	// 	codes
+	// }
+
+	const id = 30;
+
+	// if(id == 50){
+	// 	console.log("Correct");
+	// }
+
+	if(id == 30){
+		console.log("Correct");
+	}else{
+		console.log("Incorrect");
+	}
+
+	if(id === "30"){
+		console.log("Correct");
+	}else{
+		console.log("Incorrect");
+	}
+
+	if(id != 30){
+		console.log("Correct");
+	}else{
+		console.log("Incorrect");
+	}
+
+
+	if(id !== "30"){
+		console.log("Correct");
+	}else{
+		console.log("Incorrect");
+	}
+
+	// else if
+	const j =40;
+	let k =20;
+
+	if(j < k){
+		console.log("Yes j is greater than k");
+	}else if(j==k){
+		console.log("Yes, j is equal to k");
+	}else{
+		console.log("No, j is greater than k");
+	}
+
+
+	
+
+	
+
+	// Switch statement
+
+	// switch(){
+	// 	case : 
+	// 		codes;
+	// 		break;
+	// 	case :
+	// 		codes;
+	// 		break;
+	// 	case :
+	// 		codes;
+	// 		break;
+	// 	default:
+	// 		codes;
+	// 		break;	
+	// }
+
+	const color = "white";
+
+	switch(color){
+		case "black":
+		console.log("My Fav color is not black");
+		break;
+		case "pink":
+		console.log("My fav color is not pink");
+		break;
+		case "red":
+		console.log("i hate red color");
+		break;
+		case "white":
+		console.log("Correct, My fav color is White");
+		break;
+		default:
+		console.log("Try Again");
+		break;
+	}
+
+	let daycount = new Date().getDay();
+	// console.log(daycount);
+
+	let today;
+
+	switch(daycount){
+		case 0:
+		today = "Sunday";
+		break;
+		case 1:
+		today = "Monday";
+		break;
+		case 2:
+		today = "Tuesday";
+		break;
+		case 3:
+		today = "Wednesday";
+		break;
+		case 4:
+		today = "Thursday";
+		break;
+		case 5:
+		today = "Friday";
+		break;
+		default:
+		today = "Saturday";
+		break;
+	}
+
+	document.write("Today is" + " " + today);
+	console.log(today);
+
+	let p = 10;
+	let	q= 50;
+	console.log(q);
+
+	// p = q;
+	// console.log(q);
+
+	// q = p + q;
+	// console.log(q);
+
+	// q += p;
+	// console.log(q);
+
+	// q = q - p;
+	// console.log(q);
+
+	// q -= p;
+	// console.log(q);
+
+	// q = q * p;
+	// console.log(q);
+
+	// q *= p;
+	// console.log(q);
+
+	// q = q/p;
+	// console.log(q);
+
+	// q /= p;
+	// console.log(q); 
+
+	// q = q % p;
+	// console.log(q);
+
+	// q %= p;
+	// console.log(q);
+
+	const username =prompt("Enter Usename");
+	const password =prompt("Enter Password");
+
+	// if(username === "aungaung" && password ==="123456"){
+	// 	console.log("welcome");
+	// }else{
+	// 	console.log("Try Again!");
+	// }
+
+	// if(username === "aungaung" || password ==="123456"){
+	// 	console.log("welcome");
+	// }else{
+	// 	console.log("Try Again!");
+	// }
+
+
+	
+</script>
+</body>
+</html>
+
+
+<!-- Comparison Operators (9)
+
+== equal to
+=== equal to
+!= not equal
+!== not equal
+> greater than
+< less than
+>= greater than or equal
+<= less than or equal
+? statement (ternary operator) -->
+
+<!-- Assignment Operators (6)
+= Assign 
++=
+-=
+*=
+/=
+%=
+-->
+
+
+<!-- 
+Logical Operators (3)
+and &&
+or ||
+not ! -->

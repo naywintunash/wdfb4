@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Array</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	// Array (Manual Array)    key ma pr bu/index pl pr tl
+	let j = new Array("aung aung","maung maung","kyaw kyaw");
+	console.log(typeof j);
+	console.log(j);
+	console.table(j);
+	console.table(j.length);
+
+	console.log(j[2]);
+
+	let x = [1200,1300,1400,1500];
+	console.log(x[2]);
+	console.log(x.length);
+
+	let k = [20,"hello",true,undefined,null,new Date(),{a:1,b:2}];
+	console.table(k);
+	console.table(k.length);
+
+	// Get Single Value
+	let l = [1200,1300,1400,1500];
+	console.log(l);
+	console.log(typeof l[2]);
+
+	//Find index key of value in array (array method)
+	console.log(l.indexOf(1200));
+	console.log(l.indexOf(1900));
+
+	// string is Character Array in js
+	const name = "aung ko ko";
+	console.log(name[5]);
+	console.log(name.length);
+	console.log(name.indexOf("o"));
+
+
+	let m=[];
+	m[2]= "blue";
+	m[0]= "green";
+	m[1]= "red";
+	m[3]= "black";
+	console.log(m);
+	console.log(m[1]);
+
+
+	// Array Methods
+	// it's array or not
+	console.log(Array.isArray(m));
+
+	// Array Datatype to String Data type
+	console.log(m.toString());
+
+
+	// Array to String by spacial chars
+	console.log(m.join(" "));
+	// console.log(m.join("/"));
+	// console.log(m.join("*"));
+
+	m[4]="white";
+	console.log(m);
+
+	// Add new value to array (add on to end)
+	m.push("gold");
+	m.push("gray");
+	m.push("blue","silver");
+	console.log(m);
+	console.log(m.length);
+
+	// Remove value (take off from end)
+	m.pop();
+	console.log(m);
+	console.log(m.length);
+
+	// Remove value (take off from front)
+	m.shift();
+	console.log(m);
+	console.log(m.length);
+
+	// remove value (delete is not remove index number)
+	delete m[2];
+	console.log(m);
+	console.log(m.length);
+
+	// Add new value to array(add on to front)
+	m.unshift("violet");
+	m.unshift("grey");
+	console.log(m);
+	console.log(m.length);
+
+		// where we want to start , where we want to end
+			 // index , space
+	let q = m.splice(1,3);
+	console.log(q);
+
+	// Array Combine
+	const arr1 = ["aung aung","maung maung","kyaw kyaw"];
+	const arr2 = ["mya mya","hla hla","su su"];
+	const arr3 = [123,456,789];
+	console.log(arr2.concat(arr1));
+	console.log(arr1.concat(arr3));
+
+	// Array Sorting (Just for string)
+	const arr4 = arr1.concat(arr2);
+	console.log(arr4.sort());
+	console.log(arr4.reverse());
+
+	const arr5 = [700,100,50,800,200,150,10];
+	console.log(arr5);
+	console.log(arr5.sort());
+
+	//TBC(Done 19 july 2021)
+
+	console.log(arr5.sort(function(a,z){
+		return a-z;
+	}));
+
+	console.log(arr5.sort(function(x,y){
+		return y-x;
+	}));
+
+
+
+	// filter();
+	const ages = [10,20,30,40,50,5,16];
+
+const result = ages.filter(function(age){
+	// if(age >= 18){
+	// 	return age;
+	// }
+	return age >= 18;
+});
+
+console.log(result);
+
+
+let arrfuns = [];
+
+const funone = function(){
+	console.log('i am funone');
+}
+
+const funtwo = function(){
+	console.log('i am funtwo');
+}
+
+const funthree = function(){
+	console.log('i am funthree');
+}
+
+arrfuns.push(funone);
+arrfuns.push(funtwo);
+arrfuns.push(funthree);
+
+
+
+console.log(arrfuns);
+
+const output = arrfuns.filter(function(arrfun){
+
+	// if(arrfun === funtwo){
+	// 	return arrfun;
+	// }
+
+	// return arrfun === funtwo;
+
+
+	// if(arrfun !== funone){
+	// 	return arrfun;
+	// }
+
+	return arrfun !== funone;
+
+});
+
+console.log(output);
+
+</script>
+</body>
+</html>

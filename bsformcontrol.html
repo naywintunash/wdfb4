@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <!-- bootstrap css1 js2  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+     <!-- select 2 css1 js1     -->
+     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+     <!-- flatpickr css1 js1 -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+     <!--summernote css1 js1 -->
+     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+</head>
+
+<body>
+   <!--
+    m 0 to 5
+    mb 0 to 5
+    mt 0 to 5
+    mx 0 to 5   (left & right)
+    my 0 to 5   (top & bottom)
+    ms 0 to 5  (left) start 
+    me 0 to 5 (right) end
+    
+ -->
+ 
+    <div class="container">
+        <h1>Bootstrap Form Control</h1>
+
+        <form action="" method="" enctype="multipart/form-data">
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <label for="firtname">First Name</label>
+                    <input type="text" name="firtname" id="firtname" class="form-control form-control-sm rounded-0" placeholder="Enter your first name" />
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" class="form-control form-control-sm rounded-0" placeholder="Enter your lastname"/>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control form-control-sm rounded-0" placeholder="Enter your email" autocomplete="off"/>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-control form-control-sm rounded-0" placeholder="Enter your password" />
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="country">Country</label>
+                    <select name="country" id="country" class="form-select form-select-sm rounded-0">
+                        <option disabled selected>Choose Country</option>
+                        <option value="mm">Myanmar</option>
+                        <option value="th">Thailand</option>
+                        <option value="slk">Srilanka</option>
+                        <option value="indo">Indonesia</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="role">Role</label>
+                    <select name="role[]" id="role" class="form-select form-select-sm rounded-0" multiple>
+                        <option value="ad">Admin</option>
+                        <option value="mg">Manager</option>
+                        <option value="sup">Supervisor</option>
+                        <option value="ed">Editor</option>
+                    </select>
+                </div>
+
+
+                <div class="col-md-6 mb-3">
+                    <label>Gender</label>
+                    
+                    <div class="form-check">
+                        <input type="radio" name="gender" id="genderm" class="form-check-input" value="1" /><label for="genderm">Male</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="radio" name="gender" id="genderf" class="form-check-input" value="0" /><label for="genderf">Female</label>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6 mb-3">
+                    <label>Fav Music</label>
+
+                    <div class="form-check">
+                        <input type="checkbox" name="favmusic" id="favpop" class="form-check-input" value="pop" /><label for="favpop">Pop</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" name="favmusic" id="favrock" class="form-check-input" value="rock" /><label for="favrock">Rock</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" name="favmusic" id="favhip" class="form-check-input" value="hip" /><label for="favhip">Hip-hop</label>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6 mb-3">
+                    <label for="dob">Date of birth</label>
+                    <input type="date" name="dob" id="dob" class="form-control form-control-sm rounded-0" placeholder="Choose Date of Birth"/>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="">NRC</label>
+                    <input type="file" name="nrc" id="nrc" class="form-control form-control-sm rounded-0" multiple />
+                </div>
+
+
+                <div class="col-md-6 mb-3">
+                    <label for="score">Score</label>
+                    <input type="range" name="score" id="score" class="form-range" min="0" max="100" value="0" step="10"/>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="bio">Summary Bio</label>
+                    <textarea name="bio" id="bio" class="form-control rounded-0"></textarea>
+                </div>
+
+
+                <div class="col-md-12 mb-3">
+                    <div class="form-check form-switch">
+                        <input type="checkbox" name="agree" id="agree" class="form-check-input" value="agree" />
+                        <label for="agree">I agree all the above regulations</label>
+                    </div>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <div class="d-flex justify-content-end">
+                        <button class="btn btn-secondary btn-sm rounded-0 me-3">Cancle</button>
+                        <div type="submit" class="btn btn-primary btn-sm rounded-0">Register</div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <!-- bootstrap css1 js2  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+
+        <!-- jquary js1  -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+        <!-- select 2 css1 js1 -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+         <!-- flatpickr css1 js1 -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <!-- summernote css1 js1  -->
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+
+    
+    <script type="text/javascript">
+        // for role 
+        $(function(){
+            // console.log('hay');
+            $('#role').select2();
+
+            // for dob 
+            $('#dob').flatpickr({
+                // dateFormat: "d.m.Y",
+                // maxDate: "22.9.2021"
+                minDate: "2021-09-05"
+            });
+
+            // for bio 
+            $('#bio').summernote({
+                placeholder: 'Write Something',
+                tabsize: 2,
+                height: 300,
+                toolbar: [
+          ['font', ['bold', 'underline']],
+          ['color', ['color']],
+          ['para', ['ul', 'ol', 'paragraph']],
+          ['table', ['table']],
+          ['insert', ['link']],
+        ]
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>

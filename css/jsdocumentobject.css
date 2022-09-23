@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f4f4f4;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0;
+	overflow: hidden;
+}
+
+.container{
+	width: 400px;
+	background-color: #fff;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+	border-radius: 5px;
+}
+
+.card{
+	padding: 30px 40px;
+}
+
+.card h3, .card h4{
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.form-control{
+	margin-bottom: 10px;
+}
+
+.form-control label{
+	color: #777;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-control input{
+	width: 100%;
+	padding: 10px;
+	border: 0;
+	border-bottom: 1px solid silver;
+}
+
+.form-control input:focus{
+	outline: 0;
+	border-bottom: 1px solid blue;
+}
+
+.form button{
+	width: 100%;
+	font-size: 16px;
+	padding: 10px;
+	background-color:darkblue;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.card .card-action{
+	background-color: #f4f4f4;
+	border-top:1px dashed silver ;
+	border-bottom:1px dashed silver ;
+	margin-top: 20px;
+}
+
+.collection{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.collection .collection-item{
+	display: flex;
+	justify-content: space-between;
+	line-height: 30px;
+}
+
+.collection .delete-item{
+	color: red;
+}
+
+.card-action .btn{
+	text-decoration: none;
+	background-color: darkblue;
+	color: #fff;
+	padding: 5px;
+}
+
+
+.moretask .loading{
+	width: 20px;
+}
+
+.card .moretask{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+
+.active i{
+	color: green;
+}
+
+.disable i{
+	color: silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+

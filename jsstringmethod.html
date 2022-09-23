@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js String Methods</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+	// String Meyhods
+	let val = "Maung Maung"
+	let lv = "kyaw";
+	console.log(val);
+	console.log(val.length);
+
+	let nm = val + lv;
+	console.log(nm);
+
+	val += lv;
+	console.log(val);
+
+	// concat();
+
+	var firstname = "Zayar";
+	var lastname = "Kyaw";
+	var fullname = firstname.concat(lastname);
+	console.log(fullname);
+
+	// String is Character Array in Js
+
+	let test = fullname.length;
+	console.log(test);
+	console.log(fullname[test-1]);
+
+
+	// charAt();
+	console.log(firstname.charAt(2));
+	console.log(firstname.charAt(firstname.length-1));
+
+	// include();
+	let fav = "My fav color is black";
+	console.log(fav.includes("black"));
+
+	// replace(old,new);
+	console.log(fav.replace("black","red"));
+
+	// substring(index,space);
+	console.log(fav.substring(0,5)+"...");
+
+	// Change Case
+	console.log(fav.toUpperCase());
+	console.log(fav.toLowerCase());
+
+
+
+</script>
+</body>
+</html>

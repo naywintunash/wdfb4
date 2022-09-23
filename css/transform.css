@@ -1,0 +1,110 @@
+/*Variable*/
+:root{
+	--oc:orange;
+	--gn:#09e31b;
+	--vi:rgba(92,37,127,1.00);
+}
+
+
+.div1{
+	width:100px;
+	height:80px;
+	background-color:var(--gn);
+
+	transform:rotate(90deg);
+}
+
+
+
+.div2{
+	width:200px;
+	height: 80px;
+	background-color: var(--oc);
+
+	transform:rotate(50deg);
+}
+
+
+
+
+.div3{
+	width:200px;
+	height: 80px;
+	background-color: var(--vi);
+
+	transform:rotateX(50deg);
+}
+
+
+
+.div4{
+	width:200px;
+	height: 80px;
+	background-color: var(--gn);
+
+	transform:rotateY(50deg);
+}
+
+.div5{
+	width:200px;
+	height: 80px;
+	background-color: var(--vi);
+
+	transform:scale(0.5);
+}
+
+
+.country{
+	font-size:16px;
+
+	/*Vendors Prfix Properties*/
+	-webkit-appearance:none; /* Chrome Safari and Opera -o- , Internet Explorer -ms- */
+	-moz-appearance:none;  /*Mozilla Firefox*/
+	appearance:none;
+
+	padding:10px 25px 10px 10px;
+	background-image:url("https://pixy.org/src/84/849539.png");
+	background-size:15px;
+
+	background-repeat:no-repeat;
+	background-position:right;
+	background-position-x:90%;
+}
+
+h1{
+	text-align: center;
+}
+
+p.text{
+	text-align:center;
+	color:red;
+}
+
+
+@media(max-width:600px){
+	h1{
+		font-size:25px;
+		color:blue;
+	}
+
+	p.text{
+		color:blue;
+	}
+}
+
+
+	/*appearance:none; pay ya dr ka select html tag htai ka option htai ka arrow ko change chin lo*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
